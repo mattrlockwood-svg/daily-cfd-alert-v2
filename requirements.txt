@@ -1,0 +1,5 @@
+yfinance==0.2.37
+pandas==2.2.1
+pandas-ta==0.3.14b0
+yahooquery==2.3.7
+python-telegram-bot==21.0.1
