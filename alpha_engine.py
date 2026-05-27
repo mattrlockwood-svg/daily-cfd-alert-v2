@@ -12,7 +12,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 # 🔴 TESTING MODE TOGGLE 🔴
 # Set to True to bypass the live scan and immediately send a mock batched Telegram alert.
 # Set to False for live production EOD scanning.
-TEST_MODE = False 
+TEST_MODE = True 
 
 async def send_batched_telegram_alert(message_text):
     """
